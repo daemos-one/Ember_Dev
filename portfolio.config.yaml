@@ -91,8 +91,8 @@ social:
 about: |
  I am a web developer who loves turning ideas into fast, responsive, and accessible websites. I focus on clean code and smooth user experiences
 
-show: false
 # ── Stats ──────────────────────────────────────────────────────────────
+show: false  
 # Customise each label and value freely — change "Projects Shipped" to
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
 # Optional fields: prefix (e.g. "$") and suffix (e.g. "+" or "k").
@@ -125,6 +125,7 @@ skills:
     items: [Git, Figma, Jest, Storybook, Datadog]
 
 # ── Experience ─────────────────────────────────────────────────────────
+Show: false  
 experience:
   - company: "Acme Corp"
     role: "Senior Full-Stack Engineer"
@@ -189,8 +190,8 @@ education:
   - institution: "University of California, Berkeley"
     degree: "B.S. Computer Science"
     period: "2014 – 2018"
-show: false
 # ── Certifications ─────────────────────────────────────────────────────
+show: false  
 certifications:
   - title: "AWS Certified Solutions Architect – Associate"
     issuer: "Amazon Web Services"
@@ -213,8 +214,8 @@ certifications:
     badgeUrl: ""
     tags: [Data, GCP, BigQuery]
 
-show: false
 # ── Publications ───────────────────────────────────────────────────────
+show: false  
 # Optional — ideal for researchers, academics, and technical writers.
 # type options: conference | journal | preprint | book-chapter | workshop
 publications:
@@ -233,8 +234,9 @@ publications:
     url: ""
     type: "journal"
     tags: [frontend, architecture, micro-frontends]
-ahow: false
+
 # ── Testimonials ───────────────────────────────────────────────────────
+show: false  
 testimonials:
   - name: "Sarah Chen"
     title: "Engineering Manager"
