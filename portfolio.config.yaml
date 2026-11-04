@@ -183,9 +183,8 @@ projects:
     repoUrl: "https://github.com/daemos-one/Baleloko"
     featured: true
 
-  
-show: false
 # ── Education ──────────────────────────────────────────────────────────
+show: false
 education:
   - institution: "University of California, Berkeley"
     degree: "B.S. Computer Science"
