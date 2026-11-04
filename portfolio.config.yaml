@@ -17,13 +17,13 @@ siteUrl:  "https://yourusername.github.io"  # ← Your GitHub Pages URL (used fo
 showPoweredBy: false  # Set to true to show a small "Made with GitVitae" badge in your footer (helps others discover GitVitae)
 
 # ── Identity ───────────────────────────────────────────── (required) ──
-name: "Git Vitae"              # Your name — shown in the header and used as a fallback in the avatar
-title: "Portfolio-Resume Engineer"
-tagline: "I build free portfolios and resumes for everyone."
-email: "git-vitae@proton.me"
-phone: ""                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
-location: "San Francisco, CA"
-avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmile&radius=12"  # Demo avatar — replace with your own photo URL (see instructions below)
+name: "Emberdev"              # Your name — shown in the header and used as a fallback in the avatar
+title: "Website Portfolio"
+tagline: "Build.Code.Repair.Deploy"
+email: "daemos1@gmail.com"
+phone: "+27 81 752 5697"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
+location: "SSouth Africa"
+avatarUrl: "https://github.com/daemos-one/Ember_Dev/blob/main/logo.png"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
@@ -49,8 +49,8 @@ avatarUrl: "https://api.dicebear.com/9.x/fun-emoji/svg?seed=Alex&mouth[]=wideSmi
 openToWork: true         # Shows "Open to Opportunities" banner when true
 
 # ── Theme ──────────────────────────────────────────────────────────────
-defaultTheme: "system"   # Options: light | dark | system
-colorPreset: "indigo"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
+defaultTheme: "dark"   # Options: light | dark | system
+colorPreset: "slate"    # Options: indigo | emerald | rose | amber | ocean | slate | custom
 # primaryColor: "#6366f1" # Optional — pick any colour you like and paste its hex code here.
                            # Overrides colorPreset above. To find a hex code:
                            #   → Google "colour picker", pick a colour, copy the 6-digit code (e.g. #e11d48)
@@ -82,19 +82,16 @@ sections:
 # ── Social links ───────────────────────────── (leave blank to hide) ───
 social:
   github:   "https://github.com/yourusername"
-  linkedin: "https://linkedin.com/in/yourusername"
+  linkedin: "https://linkedin.com/in/tirelo-mabetoa-a34000103/"
   twitter:  ""
   website:  ""
 
 # ── About ──────────────────────────────────────────────────────────────
 # Use | for multi-line text. Indent each line by 2 spaces.
 about: |
-  I'm a portfolio-resume engineer with 5+ years of experience building products
-  that people love. I specialize in React, Node.js, and distributed systems.
-  When I'm not coding, I'm hiking trails or experimenting with new coffee
-  brewing methods.
+ I am a web developer who loves turning ideas into fast, responsive, and accessible websites. I focus on clean code and smooth user experiences
 
-
+show: false
 # ── Stats ──────────────────────────────────────────────────────────────
 # Customise each label and value freely — change "Projects Shipped" to
 # "Active Customers", "Happy Clients", "Open Source Stars", etc.
@@ -115,8 +112,6 @@ stats:
 # level options: Native | Fluent | Conversational | Basic
 languages:
   - { name: "English",  level: "Native"        }
-  - { name: "Spanish",  level: "Conversational" }
-  - { name: "Mandarin", level: "Basic"          }
 
 # ── Skills ─────────────────────────────────────────────────────────────
 skills:
@@ -167,40 +162,35 @@ experience:
 # ── Projects ───────────────────────────────────────────────────────────
 # Set featured: true to show in the Featured section (max 3 recommended)
 projects:
-  - name: "OpenDesk"
-    description: "An open-source project management tool built with React and Go. 2.3k GitHub stars. Real-time updates via WebSockets."
-    tags: [React, Go, WebSockets, PostgreSQL]
-    liveUrl: "https://opendesk.example.com"
-    repoUrl: "https://github.com/yourusername/opendesk"
+  - name: "Coach Floyd Career Coach"
+    description: "specialized professional career coaching and resume-writing platform designed to help job seekers overcome automated recruitment filters, revamp their application documents, and secure interviews faster."
+    tags: [ats-cv, cv-revamp, resume-builder, career-coaching, job-search, wordpress, woocommerce, south-africa]
+    liveUrl: "https://www.floydmokhena.co.za/"
+    repoUrl: "https://github.com/daemos-one/Coach_Floyd"
     featured: true
 
-  - name: "CodeLens"
-    description: "VS Code extension that uses AI to generate inline documentation. 10k+ installs from the marketplace."
-    tags: [TypeScript, OpenAI, "VS Code API"]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/codelens"
+  - name: "Mokhena Foundation"
+    description: "Registered Non-Profit Company (NPC) and Non-Profit Organization (NPO) based in South Africa. Its primary mission is to build empowered, self-sustaining communities through education, skills development, and social upliftment programs."
+    tags: [ngo, non-profit, foundation, community-development, charity, social-impact, wordpress, south-africa]
+    liveUrl: "https://mokhenafoundation.org.za/"
+    repoUrl: "https://github.com/daemos-one/Mfoundation"
     featured: true
 
-  - name: "PriceWatch"
-    description: "Browser extension that tracks price history on e-commerce sites and alerts users to drops."
-    tags: [JavaScript, "Chrome API", Node.js]
-    liveUrl: "https://pricewatch.example.com"
-    repoUrl: "https://github.com/yourusername/pricewatch"
-    featured: false
+  - name: "Baleloko Group"
+    description: "a South African diversified holding and investment company that manages a portfolio of operating entities focusing on professional services, business solutions, and property development."
+    tags: [corporate-website, holding-company, investment-firm, business-consulting, property-development, wordpress, south-africa]
+    liveUrl: "https://baleloko.co.za/"
+    repoUrl: "https://github.com/daemos-one/Baleloko"
+    featured: true
 
-  - name: "Logbook"
-    description: "A minimalist journaling app with end-to-end encryption. Built in a weekend. 500+ users."
-    tags: ["React Native", SQLite, Crypto]
-    liveUrl: ""
-    repoUrl: "https://github.com/yourusername/logbook"
-    featured: false
-
+  
+show: false
 # ── Education ──────────────────────────────────────────────────────────
 education:
   - institution: "University of California, Berkeley"
     degree: "B.S. Computer Science"
     period: "2014 – 2018"
-
+show: false
 # ── Certifications ─────────────────────────────────────────────────────
 certifications:
   - title: "AWS Certified Solutions Architect – Associate"
@@ -224,7 +214,7 @@ certifications:
     badgeUrl: ""
     tags: [Data, GCP, BigQuery]
 
-
+show: false
 # ── Publications ───────────────────────────────────────────────────────
 # Optional — ideal for researchers, academics, and technical writers.
 # type options: conference | journal | preprint | book-chapter | workshop
@@ -244,7 +234,7 @@ publications:
     url: ""
     type: "journal"
     tags: [frontend, architecture, micro-frontends]
-
+ahow: false
 # ── Testimonials ───────────────────────────────────────────────────────
 testimonials:
   - name: "Sarah Chen"
