@@ -23,7 +23,7 @@ tagline: "Build.Code.Repair.Deploy"
 email: "daemos1@gmail.com"
 phone: "+27 81 752 5697"                    # Optional — e.g. "+1 (555) 000-1234". Shown in contact section and resume.
 location: "South Africa"
-avatarUrl: ""  # Demo avatar — replace with your own photo URL (see instructions below)
+avatarUrl: "https://github.com/daemos-one/Ember_Dev/blob/main/logo.png"  # Demo avatar — replace with your own photo URL (see instructions below)
 # How to add a profile photo (free, no extra account needed):
 #   1. Go to your GitHub repo → click "Add file" → "Upload files"
 #   2. Upload your photo (e.g. avatar.jpg) into a folder called "public/"
